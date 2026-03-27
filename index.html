@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Raíssa 💖</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe6eb, #fff0f5);
+  color: #333;
+}
+
+/* TÍTULOS */
+h1, h2 {
+  color: #ff4d6d;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #ff4d6d, #ff8fa3);
+  color: white;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+/* BOTÃO */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: white;
+  color: #ff4d6d;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffe6eb;
+  transform: scale(1.05);
+}
+
+/* GALERIA */
+.galeria {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.grid img {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: 0.4s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.grid img:hover {
+  transform: scale(1.08);
+}
+
+/* LEGENDA */
+.legenda {
+  margin-top: 15px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* DECLARAÇÃO */
+.declaracao {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.declaracao h2 {
+  margin-bottom: 20px;
+}
+
+.declaracao p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* MOTIVOS */
+.motivos {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* FINAL */
+.final {
+  padding: 60px 20px;
+  text-align: center;
+  background: #ff8fa3;
+  color: white;
+}
+
+/* ANIMAÇÃO */
+section {
+  animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .grid img {
+    width: 160px;
+    height: 220px;
+  }
+}
+</style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Raíssa 💖</h1>
+      <p>Desde que você entrou na minha vida, tudo ficou mais bonito</p>
+      <a href="#fotos" class="btn">Ver mais ↓</a>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="fotos" class="galeria">
+    <h2>Você 💕</h2>
+
+    <div class="grid">
+      <img src="img/raissa1.jpg" alt="">
+      <img src="img/raissa2.jpg" alt="">
+      <img src="img/raissa3.jpg" alt="">
+    </div>
+
+    <p class="legenda">Cada foto sua é um motivo pra eu sorrir</p>
+  </section>
+
+  <!-- DECLARAÇÃO -->
+  <section class="declaracao">
+    <h2>Para você ❤️</h2>
+
+    <p>
+      Raíssa, eu poderia tentar explicar em mil palavras o quanto você é importante pra mim…
+      mas nenhuma seria suficiente.
+    </p>
+
+    <p>
+      Você chegou na minha vida e mudou tudo. Trouxe paz, alegria e um sentimento que eu nem sabia que existia desse jeito.
+    </p>
+
+    <p>
+      Seu sorriso ilumina meus dias, sua presença acalma meu coração
+      e o seu jeito… é simplesmente perfeito pra mim.
+    </p>
+
+    <p>
+      Eu amo estar com você, amo conversar com você,
+      amo simplesmente existir ao seu lado.
+    </p>
+
+    <p>
+      E se eu pudesse escolher de novo…
+      escolheria você, todas as vezes.
+    </p>
+  </section>
+
+  <!-- MOTIVOS -->
+  <section class="motivos">
+    <h2>Por que eu te amo 💕</h2>
+
+    <div class="cards">
+      <div class="card">Seu sorriso que me desmonta</div>
+      <div class="card">Seu jeitinho único</div>
+      <div class="card">Seu carinho comigo</div>
+      <div class="card">Como você me faz bem</div>
+      <div class="card">Seu olhar lindo</div>
+      <div class="card">Porque é você ❤️</div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="final">
+    <h2>Eu te amo hoje, amanhã e para sempre ❤️</h2>
+    <p>Feito com amor, só pra você 💖</p>
+  </section>
+
+</body>
+</html>
